@@ -154,12 +154,12 @@ function Footer() {
                 ))}
               </ul>
               <div className={styles.siteSecurityImages}>
-                <Image
+                {/* <Image
                   src="logos\image 270siteLock.svg"
                   alt=""
                   width={67}
                   height={38}
-                />
+                /> */}
                 <Image
                   src="logos\image 273globalSign.svg"
                   alt=""

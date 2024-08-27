@@ -104,6 +104,8 @@
 .navDropOff {
     display: flex;
     justify-content: flex-end;
+    overflow: hidden;
+    margin-top: -1%;
 }
 
 .navPara {
@@ -112,6 +114,8 @@
     color: #808080;
     letter-spacing: -3.5%;
     cursor: default;
+    white-space: nowrap; /* Prevent the text from wrapping */
+    animation: scrollText 15s linear infinite; /* Apply the animation */
 }
 
 .burger {
@@ -270,5 +274,15 @@
 
     .sideBarActive {
         display: flex;
+    }
+}
+
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%); /* Start outside the right edge */
+    }
+    100% {
+        transform: translateX(-100%); /* End outside the left edge */
     }
 }

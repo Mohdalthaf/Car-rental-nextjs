@@ -119,6 +119,7 @@
     display: flex;
     list-style: none;
     margin-top: 10px;
+    margin-left: -14%;
 }
 
 .col3 ul li {
@@ -153,8 +154,8 @@
 .groupNavigationDesktop {
     background-color: black;
     color: #ffffff;
-    padding: 16px;
-    padding-left: 80px;
+    padding: 9px;
+    padding-left: 52px;
 }
 
 .groupNavigationDesktop h3 {
@@ -169,6 +170,7 @@
 .companyUl1Desk {
     display: flex;
     list-style: none;
+    margin-left: -8%;
 }
 
 .companyUl1Desk li {
@@ -177,8 +179,13 @@
     font-weight: 500;
     letter-spacing: -0.035em;
     text-align: left;
-
 }
+
+.companyUl1Desk li a{
+    color: #ffff;
+    text-decoration: none;
+}
+
 
 .siteSecurityImages {
     display: flex;
