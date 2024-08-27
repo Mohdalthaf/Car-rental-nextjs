@@ -91,8 +91,10 @@ function BookCar() {
                                 <option value="fujairah">Fujairah</option>
                             </select>
                         </li>
-                        <li className={styles.mobileInputItem}><input className={styles.pickupDateMobile} type="datetime-local" placeholder="Pick-Up Date and Time" /></li>
-                        <li className={styles.mobileInputItem}><input className={styles.dropOffDateMobile} type="datetime-local" placeholder="Drop off Date and Time" /></li>
+                        <li className={styles.mobileInputItem}><input className={styles.pickupDateMobile} type="datetime-local" placeholder="Pick-Up Date and Time"  defaultValue="Email"
+                        /></li>
+                        <li className={styles.mobileInputItem}><input className={styles.dropOffDateMobile} type="datetime-local" placeholder="Drop off Date and Time" defaultValue="Email"
+                        /></li>
                         <li><button className={styles.searchMobileButton}>Search</button></li>
                     </ul>
                 </div>

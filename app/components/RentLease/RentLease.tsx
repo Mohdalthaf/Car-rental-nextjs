@@ -7,18 +7,18 @@ function RentLease() {
   const data = [
     {
       id: 1,
-      description: 'Select the location. Browse through our available options and find the perfect car to suit your needs',
-      imgUrl: 'logos/Frame 1171274971locationPin.svg'
+      description: "Select the location. Browse through our available options and find the perfect car to suit your needs",
+      imgUrl: "logos/Frame 1171274971locationPin.svg"
     },
     {
       id: 2,
-      description: 'Choose your desired Pick-Up date and time.',
-      imgUrl: 'logos/Frame 1171274970calender.svg'
+      description: "Choose your desired Pick-Up date and time.",
+      imgUrl: "logos/Frame 1171274970calender.svg"
     },
     {
       id: 3,
-      description: 'Make payment and book the car. Select an option to either have the car delivered to your location or pick it up directly from us.',
-      imgUrl: 'logos/Frame 1171274969car.svg'
+      description: "Make payment and book the car. Select an option to either have the car delivered to your location or pick it up directly from us.",
+      imgUrl: "logos/Frame 1171274969car.svg"
     }
   ]
 
